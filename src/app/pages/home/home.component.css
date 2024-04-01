@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    /* font-family: Arial, sans-serif; Default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for the grid container */
+.grid-container {
+    background-image: url('../../../assets/backbround.png');
+    background-size: cover; 
+    display: grid;
+    height: 100vh; /* Make the grid container cover the full screen vertically */
+    place-items: center; /* Center the grid items horizontally and vertically */
+  }
+  
+  /* Style for the center box */
+  .center-box {
+    width: 492px; /* Adjust the width as needed */
+    height: 301px; /* Adjust the height as needed */
+    background-color: #ffffff; /* Example background color */
+    border-radius: 10px; /* Optional: Round corners of the box */
+    /* Additional styling for the center box */
+    /* border: 2px solid black; */
+
+    display:grid;
+    grid-template-rows: 119px 35px 20px auto;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+  }
+
+  .air-qi{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:55px;
+    color: #19185E;
+    grid-row:1;
+  }
+
+  .breath-better{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:22px;
+    color: #19185E;
+    grid-row: 2;
+
+  }
+
+  .para{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size:10px;
+    color: #3c4f4e;
+    word-wrap: break-word; /* Break long words to prevent overflow */
+    max-width: 350px;
+    text-align:center;
+    grid-row:3;
+    
+  }
+
+  button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+  }
+.btn1{
+    width:311px;
+    height:56px;
+    background-color:#2278DE;
+    border-radius:10px;
+}
+
+.btn1:hover{
+    background-color: #549df5;
+}
