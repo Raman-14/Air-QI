@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 200 to 1000 */
+
+/* .mulish-<uniquifier> {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+.parent{
+    background-color: #DADADA;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.firstBox{
+    width: 735px;
+    height: 403px;
+    border-radius: 35px;
+    background-color: #ffff;
+    padding-left: 30px;
+    margin:54px;
+    display:grid;
+    grid-row: 1fr 1fr;
+}
+.row1{
+    margin-top:30px;
+}
+.realTime{
+    margin-top:5px;
+}
+.jamshedpur{
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+p{
+    font-family:"Mulish", sans-serif;
+    font-weight: 400;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 356px 151px 1fr ;
+    margin-top: 100px;
+}
+
+.poor{
+    width:131px;
+    height:60px;
+    border-radius: 36px;
+    background-color: #fead18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Mulish", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.num1{
+    font-size: 68.8px;
+    font-weight: 700;
+    color: #f97326;
+}
+
+.row2col1{
+    margin-top: 20px;
+}
+.row2col3{
+    background-image: url('../../../assets/48159.jpg');
+    width:86.4px;
+    height:140px;
+    background-size:cover;
+}
+.aqi{
+    margin-left: 20px;
+}
+.row2col2, .row2col3{
+    margin-left: 40px;
+}
+
+/* first box end */
+
+.box2{
+    width: 403px;
+    height: 403px;
+    border-radius: 25px;
+    background-color: #ffff;
+    display: grid;
+    grid-template-rows: 170px 1fr;
+    margin: 54px;
+}
+
+.b2r1{
+    align-self: center;
+    justify-self: center;
+    font-family:"Mulish", sans-serif;
+    font-weight: 900;
+}
+
+.b2r2{
+    display: grid;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+/* .b2r2c1r1{
+    grid-row:1;
+    grid-column:1;
+}
+.b2r2c1r2{
+    grid-row:2;
+    grid-column:1;
+}
+.b2r2c1r3{
+    grid-row:3;
+    grid-column:1;
+}
+.b2r2c2r1{
+    grid-row:1;
+    grid-column:2;
+}
+.b2r2c2r2{}
+.b2r2c2r3{} */
