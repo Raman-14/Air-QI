@@ -1,4 +1,5 @@
 <div class="parent">
+<div class="b1b2">
 
        <div class="firstBox">
         <div class="row1">
@@ -34,5 +35,78 @@
     </div>
 
 </div>
+</div>
+<!-- third box -->
 
+<div class="b3b4">
+
+<div class="box3">
+    <div class="b3r1">
+        <p class="mostPollutedcities">Most Polluted Cities in India</p>
+        <p class="realTimeWorstCity">Real-time worst city rankings</p>
+    </div>
+    <div class="b3r2">
+        <div class="b3r2c1">CITY</div>
+        <div class="b3r2c2">RANK</div>
+        <div class="b3r2c3">AQI-IN</div>
+    <!-- </div> -->
+    <!-- <div class="b3r3"> -->
+        <div class="rank">1</div>
+        <div class="city">Hospet</div>
+        <div class="aqiIn">567</div>
+        <div class="rank">2</div>
+        <div class="city">Cuttack</div>
+        <div class="aqiIn">364</div>
+        <div class="rank">3</div>
+        <div class="city">Bhubaneshwar</div>
+        <div class="aqiIn">294</div>
+        <div class="rank">4</div>
+        <div class="city">Gurgaon</div>
+        <div class="aqiIn">260</div>
+        <div class="rank">5</div>
+        <div class="city">Jatani</div>
+        <div class="aqiIn">253</div>
+        <div class="rank">6</div>
+        <div class="city">Puri</div>
+        <div class="aqiIn">253</div>
+        <div class="rank">7</div>
+        <div class="city">Konarka</div>
+        <div class="aqiIn">240</div>
+        <div class="rank">8</div>
+        <div class="city">Ambala</div>
+        <div class="aqiIn">236</div>
+        <div class="rank">9</div>
+        <div class="city">Patna</div>
+        <div class="aqiIn">208</div>
+        <div class="rank">10</div>
+        <div class="city">Sambalpur</div>
+        <div class="aqiIn">193</div>
+    </div>
+</div>
+
+<!-- bocx4 -->
+
+<div class="box4">
+    <div class="b4r1">
+        <p class="weather">WEATHER</p>
+        <p class="currentWeather">What is the current weather in Jamshedpur?</p>
+        <input type="text" [(ngModel)]="cityName" placeholder="Enter city name" class="cityName">
+<button (click)="getWeather()" class="btn1">Get Weather</button>
+
+    </div>
+    <div class="b4r2">
+        <div class="b4r2c1r1">Feels Like</div>
+        <div class="b4r2c2r1">{{weatherData.feels_like}} degree celcius</div>
+        <div class="b4r2c1r2">Temperature</div>
+        <div class="b4r2c2r2">{{weatherData.temp}}degree celcius</div>
+        <div class="b4r2c1r3">Humidity</div>
+        <div class="b4r2c2r3">{{weatherData.humidity}}</div>
+        <div class="b4r2c1r4">Wind</div>
+        <div class="b4r2c2r4">{{weatherData.wind_speed}} km/h</div>
+        <div class="b4r2c1r5">Maximum Temperature</div>
+        <div class="b4r2c2r5">{{weatherData.max_temp}}</div>
+    </div>
+</div>
+
+</div>
 </div>

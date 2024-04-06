@@ -11,6 +11,14 @@
 .parent{
     background-color: #DADADA;
     box-sizing: border-box;
+  
+}
+
+.b1b2{
+  display: grid;
+    grid-template-columns: auto auto;
+}
+.b3b4{
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -88,7 +96,7 @@ p{
     width: 403px;
     height: 403px;
     border-radius: 25px;
-    background-color: #ffff;
+    background-image: linear-gradient(#5bc7be, #ffff);
     display: grid;
     grid-template-rows: 170px 1fr;
     margin: 54px;
@@ -99,6 +107,7 @@ p{
     justify-self: center;
     font-family:"Mulish", sans-serif;
     font-weight: 900;
+    font-size: 30px;
 }
 
 .b2r2{
@@ -106,6 +115,9 @@ p{
     grid-template-rows: 30px 30px 30px;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+    font-family:"Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
 }
 /* .b2r2c1r1{
     grid-row:1;
@@ -125,3 +137,109 @@ p{
 }
 .b2r2c2r2{}
 .b2r2c2r3{} */
+
+
+/* box3 */
+
+.box3{
+    width: 474px;
+    height: 600px;
+    border-radius: 39px;
+    background-color: #ffff;
+    display:grid;
+    grid-template-rows: 100px auto;
+    margin:54px;
+    padding: 30px;
+}
+
+.mostPollutedcities{
+    font-family:"Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4285f4;
+}
+.realTimeWorstCity{
+    font-family:"Mulish", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.b3r2{
+    font-family:"Mulish", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 100px 100px auto;
+}
+.b3r2c3, .aqiIn{
+    justify-self: end;
+}
+
+.aqiIn{
+    width: 70px;
+    height: 32.06px;
+    border-radius: 19.24px;
+    background-image: linear-gradient(#860D86, #977ABB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* box 4 */
+
+.box4{
+    width: 658px;
+    height: 600px;
+    border-radius: 34.77px;
+    background-color: #ffff;
+    margin: 54px;
+    padding: 30px;
+}
+
+.weather{
+    /* font-family:"Mulish", sans-serif; */
+    font-weight: 900;
+    font-size: 30px;
+    color:#4285f4
+}
+.currentWeather{
+    width:300px;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.b4r2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    font-weight: 100;
+    font-size: 40px;
+
+}
+
+/* Styling the input field */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  /* Styling the button */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin:10px;
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #0056b3; /* Darker blue color */
+  }
+  
