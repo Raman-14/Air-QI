@@ -186,6 +186,7 @@ p {
     padding: 30px;
 }
 
+
 .weather {
     /* font-family:"Mulish", sans-serif; */
     font-weight: 900;
@@ -204,16 +205,17 @@ p {
     grid-template-columns: 1fr 1fr;
     padding: 30px;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 2.0em;
+    height:auto;
 }
 
 /* Styling the input field */
 input[type="text"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 200px; /* Adjust the width as needed */
+    padding: 0.625em; /* 10px converted to em */
+    border: 0.0625em solid #ccc; /* 1px converted to em */
+    border-radius: 0.3125em; /* 5px converted to em */
+    font-size: -0.5em; /* 16px */
+    width: 12.5em; /* 200px converted to em, adjust as needed */
 }
 
 /* Styling the button */
