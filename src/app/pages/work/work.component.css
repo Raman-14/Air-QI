@@ -149,13 +149,13 @@ p {
 .realTimeWorstCity {
     font-family: "Mulish", sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: -1.4em;
 }
 
 .b3r2 {
     font-family: "Mulish", sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.6em;
     display: grid;
     grid-template-columns: 100px 100px auto;
 }
