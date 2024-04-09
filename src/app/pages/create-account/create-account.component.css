@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Rubik, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .account-form {
+    width: 375px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.account-form h2 {
+    color: #1D2226;
+    font-size: 28px;
+    margin-bottom: 20px;
+    width: 188px;
+    margin-top: 40px;
+  }
+  
+
+  .textOnInput {
+    position: relative;
+    margin-bottom: 30px; 
+  }
+  
+  .textOnInput label {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    margin:0 0.5rem;
+    padding: 0 0.50rem; 
+    z-index: 1;
+    transition: top 0.3s, font-size 0.3s; 
+    font-size: 13px; 
+    color: #6c25ff;
+    font: normal normal normal 13px/17px sans-serif;
+  }
+  
+  .textOnInput label:after {
+    content: " ";
+    background-color: #fff;
+    width: calc(100% - 1.5rem); 
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    z-index: -1;
+  }
+  
+  .form-control {
+    width: 335px;
+    height: 40px;
+    padding: 1.25rem 0.75rem;
+    border: 1px solid #cbcbcb;
+    border-radius: 6px;
+    box-shadow: none !important; 
+  }
+  
+  .form-control:focus + label, 
+  .form-control:not(:placeholder-shown) + label { 
+    top: -20px;
+    font-size: 12px;
+  }
+  
+  .agency-fieldset {
+    border: none;
+    /* margin: 20px 0; */
+   
+  }
+  
+  .agency-fieldset legend {
+    color: #666;
+  }
+  
+  .agency-fieldset label {
+    /* margin-right: 10px; */
+    color: #666;
+  }
+  
+  .agency-fieldset input[type="radio"] {
+    margin-right: 5px;
+    /* width:22px; */
+  }
+  
+  .account-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #6a5acd;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin-top: 215px;
+    background: #807ca4 ;
+    /* transition: color 10s ease-out; */
+  }
+  
+  .account-form button:hover {
+    background-color: #6C25FF;
+  }
+  .radioBtn{
+    width: 22px;
+    height: 22px;
+    margin-top: 13px;
+  }
+
+  .radioLbl{
+    font: normal normal normal 16px/17px sans-serif;
+    margin-left: 12px;
+    margin-right: 23px;
+    margin-top: 13px;
+  }
+
+  .star{
+    color: #dd4a3d;
+  }

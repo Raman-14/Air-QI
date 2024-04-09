@@ -8,91 +8,97 @@
   font-weight: <weight>;
   font-style: normal;
 } */
-.parent{
-    background-color: #DADADA;
+.parent {
+    background-color: #dadada;
     box-sizing: border-box;
-  
 }
 
-.b1b2{
-  display: grid;
-    grid-template-columns: auto auto;
-}
-.b3b4{
+.b1b2 {
     display: grid;
     grid-template-columns: auto auto;
 }
 
-.firstBox{
-    width: 735px;
-    height: 403px;
+.b3b4 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.firstBox {
     border-radius: 35px;
     background-color: #ffff;
     padding-left: 30px;
-    margin:54px;
-    display:grid;
+    margin: 54px;
+    display: grid;
     grid-row: 1fr 1fr;
 }
-.row1{
-    margin-top:30px;
+
+.row1 {
+    margin-top: 30px;
 }
-.realTime{
-    margin-top:5px;
+
+.realTime {
+    margin-top: 5px;
 }
-.jamshedpur{
+
+.jamshedpur {
     font-family: "Mulish", sans-serif;
     font-weight: 900;
     font-size: 25px;
 }
-p{
-    font-family:"Mulish", sans-serif;
+
+p {
+    font-family: "Mulish", sans-serif;
     font-weight: 400;
 }
 
-.row2{
+.row2 {
     display: grid;
-    grid-template-columns: 356px 151px 1fr ;
+    grid-template-columns: 356px 151px 1fr;
     margin-top: 100px;
 }
 
-.poor{
-    width:131px;
-    height:60px;
+.poor {
+    width: 131px;
+    height: 60px;
     border-radius: 36px;
     background-color: #fead18;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:"Mulish", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: 700;
     margin-top: 10px;
 }
 
-.num1{
+.num1 {
     font-size: 68.8px;
     font-weight: 700;
     color: #f97326;
 }
 
-.row2col1{
+.row2col1 {
     margin-top: 20px;
 }
-.row2col3{
+
+.row2col3 {
     background-image: url('../../../assets/48159.jpg');
-    width:86.4px;
-    height:140px;
-    background-size:cover;
+    /* width: 100%; */
+    height: auto;
+    background-size: cover;
 }
-.aqi{
+
+.aqi {
     margin-left: 20px;
 }
-.row2col2, .row2col3{
+
+.row2col2,
+.row2col3 {
     margin-left: 40px;
 }
 
 /* first box end */
 
-.box2{
+.box2 {
     width: 403px;
     height: 403px;
     border-radius: 25px;
@@ -102,80 +108,64 @@ p{
     margin: 54px;
 }
 
-.b2r1{
+.b2r1 {
     align-self: center;
     justify-self: center;
-    font-family:"Mulish", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: 900;
     font-size: 30px;
 }
 
-.b2r2{
+.b2r2 {
     display: grid;
     grid-template-rows: 30px 30px 30px;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    font-family:"Mulish", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: 700;
     font-size: 25px;
 }
-/* .b2r2c1r1{
-    grid-row:1;
-    grid-column:1;
-}
-.b2r2c1r2{
-    grid-row:2;
-    grid-column:1;
-}
-.b2r2c1r3{
-    grid-row:3;
-    grid-column:1;
-}
-.b2r2c2r1{
-    grid-row:1;
-    grid-column:2;
-}
-.b2r2c2r2{}
-.b2r2c2r3{} */
-
 
 /* box3 */
 
-.box3{
+.box3 {
     width: 474px;
     height: 600px;
     border-radius: 39px;
     background-color: #ffff;
-    display:grid;
+    display: grid;
     grid-template-rows: 100px auto;
-    margin:54px;
+    margin: 54px;
     padding: 30px;
 }
 
-.mostPollutedcities{
-    font-family:"Mulish", sans-serif;
+.mostPollutedcities {
+    font-family: "Mulish", sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: #4285f4;
 }
-.realTimeWorstCity{
-    font-family:"Mulish", sans-serif;
+
+.realTimeWorstCity {
+    font-family: "Mulish", sans-serif;
     font-weight: 500;
     font-size: 25px;
 }
 
-.b3r2{
-    font-family:"Mulish", sans-serif;
+.b3r2 {
+    font-family: "Mulish", sans-serif;
     font-weight: 500;
     font-size: 25px;
     display: grid;
     grid-template-columns: 100px 100px auto;
 }
-.b3r2c3, .aqiIn{
+
+.b3r2c3,
+.aqiIn {
     justify-self: end;
 }
 
-.aqiIn{
+.aqiIn {
     width: 70px;
     height: 32.06px;
     border-radius: 19.24px;
@@ -187,7 +177,7 @@ p{
 
 /* box 4 */
 
-.box4{
+.box4 {
     width: 658px;
     height: 600px;
     border-radius: 34.77px;
@@ -196,25 +186,25 @@ p{
     padding: 30px;
 }
 
-.weather{
+.weather {
     /* font-family:"Mulish", sans-serif; */
     font-weight: 900;
     font-size: 30px;
-    color:#4285f4
+    color: #4285f4
 }
-.currentWeather{
-    width:300px;
+
+.currentWeather {
+    width: 300px;
     font-weight: 300;
     font-size: 40px;
 }
 
-.b4r2{
+.b4r2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
     font-weight: 100;
     font-size: 40px;
-
 }
 
 /* Styling the input field */
@@ -224,10 +214,10 @@ input[type="text"] {
     border-radius: 5px;
     font-size: 16px;
     width: 200px; /* Adjust the width as needed */
-  }
-  
-  /* Styling the button */
-  button {
+}
+
+/* Styling the button */
+button {
     padding: 10px 20px;
     background-color: #007bff; /* Blue color */
     color: #fff; /* White text color */
@@ -235,11 +225,40 @@ input[type="text"] {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin:10px;
-  }
-  
-  /* Hover effect for the button */
-  button:hover {
+    margin: 10px;
+}
+
+/* Hover effect for the button */
+button:hover {
     background-color: #0056b3; /* Darker blue color */
-  }
-  
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .b1b2,
+    .b3b4 {
+        grid-template-columns: 1fr; /* Make it single column for smaller screens */
+    }
+
+    .firstBox,
+    .box2,
+    .box3,
+    .box4 {
+        width: auto; /* Allow boxes to occupy full width */
+        margin: 20px; /* Adjust margin for spacing */
+    }
+
+    .row2col2,
+    .row2col3 {
+        margin-left: 0; /* Remove left margin for columns */
+    }
+
+    .row2col3 {
+        width: 100%; /* Make image column full width */
+        margin-top: 20px; /* Add some spacing at the top */
+    }
+
+    .row2 {
+        grid-template-columns: auto; /* Make it single column */
+    }
+}
