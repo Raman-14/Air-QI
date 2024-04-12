@@ -13,6 +13,39 @@
     box-sizing: border-box;
 }
 
+/* Default styles */
+.login {
+    width: auto;
+    height: 80px;
+    /* border-radius: 28px; */
+    /* background-color: #445469; */
+    margin-left: 63px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+    
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .login {
+        width: auto; /* Allow width to adjust based on content */
+        margin-left: 30px; /* Adjust margin for smaller screens */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .login {
+        margin-left: 10px; /* Further adjust margin for even smaller screens */
+    }
+}
+
+
+.btn2{
+    margin-left: 14px;
+}
+
+
 .b1b2 {
     display: grid;
     grid-template-columns: auto auto;
